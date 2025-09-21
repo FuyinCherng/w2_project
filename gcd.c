@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
+// hello from the github
 
 int gcd(int a, int b) {
     if (b == 0)

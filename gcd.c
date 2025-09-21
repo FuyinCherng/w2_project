@@ -11,17 +11,17 @@ int gcd(int a, int b) {
 }
 
 int main() {
-    int num1, num2;
+    int number1, number2;
     printf("Enter two integers: ");
-    if (scanf("%d %d", &num1, &num2) != 2) {
+    if (scanf("%d %d", &number1, &number2) != 2) {
         printf("Invalid input. Please enter two integers.\n");
         return 1;
     }
-    if (num1 < 0 || num2 < 0) {
+    if (number1 < 0 || number2 < 0) {
         printf("Please enter non-negative integers only.\n");
         return 1;
     }
-    int result = gcd(num1, num2);
-    printf("GCD of %d and %d is %d\n", num1, num2, result);
+    int result = gcd(number1, number2);
+    printf("GCD of %d and %d is %d\n", number1, number2, result);
     return 0;
 }
